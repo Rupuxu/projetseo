@@ -1,0 +1,188 @@
+:root {
+/* BACKGROUNDS */
+--white:#FFFFFF;
+--bgLightbrown:#E2E0E0;
+--bgBrown:#4F4442;
+--bglight:#E6E6E1;
+
+/*FONTS */
+--adventpro :'Advent Pro', sans-serif;
+--assistant : 'Assistant', sans-serif;
+    }
+
+
+* {
+  padding: 0; 
+  margin: 0;
+  }
+
+
+/*DEBUT HEADER*/
+
+body {
+  position: relative
+}  
+
+a {
+text-decoration: none; color: black;
+}
+
+.flex1 {
+  width:100%;
+  height:16vh;
+  background-color: var(--bgLightbrown);
+  overflow:hidden;
+  display:flex;
+  justify-content:center; /* Alignement sur la hauteur/verticalement */
+  padding-top: 20px;
+  position: fixed;
+    }
+
+nav strong a { /*Nom Justmode */
+  font-size : 60px;
+  font-family: 'Advent Pro', sans-serif;
+  margin-left: 25px;
+    }
+
+.comptepanier { /*Boutons navigation*/
+  margin-left: 550px;
+  position: fixed;
+}
+
+nav a { /*Boutons navigation*/
+  color: black;
+  font-family: 'Assistant', sans-serif;
+  font-size: 17px;
+      }
+
+.flex2{
+  margin-top: 123px;
+  width:100%;
+  height:2vh;
+  background-color: var(--bgBrown);
+  overflow:hidden;
+  display:flex;
+  justify-content:center; /* Alignement sur la hauteur/verticalement */
+  align-items:center; /* Alignement sur la largeur/horizontalement */
+  position: fixed;
+}
+
+.flex2 li {
+  margin: 0px;
+  display: inline;
+  list-style: none; /* nécessaire pour IE7 */
+  background-color: var(--white);
+}
+
+.flex2 a {
+  display:inline-block;
+  margin: 0 90px;
+}
+
+
+.submenu {
+  display: none;
+}
+
+/*FIN HEADER*/
+
+
+h1 {
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 60px;
+    color: black;
+    text-align: center;
+    margin-top: 170px;
+}
+
+
+p {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.a1 {
+	margin-left: 48%;
+	text-align: center;
+font-family: 'Assistant', sans-serif;
+color: white;
+}
+
+
+.contenugeneral {
+    padding: .3rem;
+    background-color: #eee;
+    font: 1rem 'Fira Sans', sans-serif;
+    width: 100%;
+    height: auto;
+    padding-bottom: 200px;
+}
+
+
+.contenuarticle {
+    margin: 0px;
+    padding: .3rem;
+    font-size: 1.2rem;
+    height: 700px;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+.contenuarticle h2 {
+    font-size: 40px;
+    font-family: 'Advent Pro', sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.contenuarticle > p {
+    margin: .2rem;
+    font-size: 20px;
+}
+
+article img {
+  width: 700px;
+  height: 400px;
+}
+
+/*DEBUT FOOTER*/
+
+
+.flex5{
+  bottom: 0;
+    position: absolute;
+    width:100%;
+    background-color: var(--bglight);
+    overflow:hidden;
+  font-family: 'Assistant', sans-serif;
+    display:flex;
+    text-align: center;
+  }
+
+footer nav li {
+  float: left;
+  margin: 0 10px;
+    }
+
+footer nav strong {
+  margin-left: 31%;
+    }
+
+#p1 {
+  margin-left: 14%;
+  width: 1000px;
+}
+
+#p2 {
+  margin-left: 33%;
+}
+
+#p3 {
+  margin-left: 31%;
+}
+
+#icones {
+  margin-left: 34%;
+  margin-top: 40px;
+}
+/*FIN FOOTER*/
